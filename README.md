@@ -1,6 +1,6 @@
 # # Kalori Hesaplama Uygulaması
 
-- JAVA, Android, Firebase, libraries
+- JAVA, Android
 - Günlük kalori hesaplaması ve hedef belirleme
 - Aldığınız kalori girip genel verileri sonunda analiz etmenize yaramaktadır.
 
