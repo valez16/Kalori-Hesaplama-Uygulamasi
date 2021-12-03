@@ -22,11 +22,11 @@
 
 ### 3. Kayıt
 
-- İstediğin yemeği listeden seçebilirsin
+- İstediğin yemeği listeden seçebilirsin.
 
 
 
-- Ayırca istediğin yemeği listeye kendinde ekleyebilirsin : YENİ YEMEK EKLE
+- Ayırca istediğin yemeği listeye kendinde ekleyebilirsin.
 
 
 
@@ -34,7 +34,7 @@
 
 ### 4. Geçmiş
 
-- Veriler geçmişte tutulur
+- Kalori verileriniz sonradan inceleyebileceğiniz şekilde haftalık olarak depolanır.
 
 
 ### 
