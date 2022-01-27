@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.kalori.hesapla.DailyMacroCounter.DailyMacroCounterFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_daily_macro_counter">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.kalori.hesapla.DailyMacroCounter.DailyMacroCounter2Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second_daily_macro_counter">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.kalori.hesapla.FoodDisplay.FoodDisplayFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_food_display">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_Second2Fragment"
+            app:destination="@id/Second2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second2Fragment"
+        android:name="com.example.caloriecounter.FoodDisplay.FoodDisplay2Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second_fooddisplay">
+
+        <action
+            android:id="@+id/action_Second2Fragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.kalori.hesapla.WeeklyProgression.WeeklyProgressionFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_weekly_progression">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.kalori.hesapla.WeeklyProgression.WeeklyProgressionSecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second_weekly_progression">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.kalori.hesapla.DailyConsumption.DailyConsumptionFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_daily_consumption">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.kalori.hesapla.DailyConsumption.DailyConsumptionSecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second_daily_consumption">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.caloriecounter.FoodDisplay.AddFoodToListFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_add_food_to_list">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.caloriecounter.FoodDisplay.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.kalori.hesapla.FoodDisplay.AddFoodItemFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_add_food_item">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_Second2Fragment"
+            app:destination="@id/Second2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second2Fragment"
+        android:name="com.example.caloriecounter.FoodDisplay.Second2Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second2">
+
+        <action
+            android:id="@+id/action_Second2Fragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First2Fragment"
+        android:name="com.example.caloriecounter.FoodDisplay.First2Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first2">
+
+        <action
+            android:id="@+id/action_First2Fragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.caloriecounter.FoodDisplay.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_First2Fragment"
+            app:destination="@id/First2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.kalori.hesapla.FoodDisplay.AddFoodItemFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_add_food_item">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.caloriecounter.FoodDisplay.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>
